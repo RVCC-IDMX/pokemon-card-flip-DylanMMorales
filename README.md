@@ -79,7 +79,7 @@ This project is ready to deploy to Netlify for free hosting:
    - Click "Deploy site"
 
 
-Your site will be live at a URL like `https://your-site-name.netlify.app`
+Your site will be live at a URL like `https://67f1d71439354490b2befc88--glittering-raindrop-cd0831.netlify.app/`
 
 ### Continuous Deployment
 
@@ -124,6 +124,28 @@ npm run lint
 - Pokémon data provided by [PokéAPI](https://pokeapi.co/)
 - Pokéball image is used for educational purposes
 - Pokémon is a trademark of Nintendo, Game Freak, and Creatures Inc.
+
+## Assignment Requirements
+
+- [x] Spinner displays during data loading
+- [x] Cards show Pokéball images and flip on click
+- [x] Each card reveals a random Pokémon with name, types, and stats
+- [x] Used fetch API and DOM manipulation
+- [x] Used event delegation for card clicks
+- [x] Smooth CSS animations on flip
+- [x] Deployed live on Netlify
+
+## Extension Features
+
+_None added._
+
+## Challenges Faced and How I Overcame Them
+
+**Image sizing and layout**: Pokémon images were too large at first. I used `object-fit: contain` in CSS and added a wrapper div to center and scale them properly.
+
+**Card overflow**: Some cards had overflowing content. I added `overflow-y: auto` to `.card-back` and allowed cards to grow with `min-height`.
+
+**Debugging fetch errors**: I used `console.log()` and `try/catch` to debug fetch responses and fixed issues with bad IDs or missing data.
 
 ## License
 
